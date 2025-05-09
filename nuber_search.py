@@ -14,10 +14,10 @@ while True:
     if guess < number:
         # ...выводим сообщение.
         print('Ваше число меньше того, что загадано.')
-    elif guess > number:
+    if guess > number:
         # ...выводим сообщение.
         print('Ваше число больше того, что загадано.')
-    elif guess == number:
+    if guess == number:
         # ...прерываем выполнение программы и...
         break
 # ...выводим сообщение.
